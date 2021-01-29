@@ -1,9 +1,3 @@
-//
-//  bubble.h
-//  First arg
-//
-//  Created by Mingmanas Sivaraksa on 2/1/2564 BE.
-//
 
 #ifndef selection_h
 #define selection_h
@@ -12,7 +6,7 @@
 void selection(int a[], int N){
     int i;
     int j;
-    int min,mi;// น้อยที่สุด
+    int min,mi;// น้อยที่สุด mi= minimum index
     int temp;
     
    // min=a[0];
@@ -27,6 +21,7 @@ void selection(int a[], int N){
    swap(&a[i],&a[mi]);
    display(a,N);
    }
+   printf("    ===end in 1 round===\n");
 }
 
 

@@ -1,10 +1,3 @@
-//
-//  bubble.h
-//  First arg
-//
-//  Created by Mingmanas Sivaraksa on 2/1/2564 BE.
-//
-
 #ifndef bubble_h
 #define bubble_h
 #include "swap.h"
